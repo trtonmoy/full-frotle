@@ -1,0 +1,27 @@
+.dh-valign-center-row .et_pb_column,
+.dh-valign-center-section,
+.dh-valign-center-module {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mybtn.et_pb_button {
+  color: #ffd54e;
+  letter-spacing: 3px;
+  font-family: "Star Jedi";
+  line-height: 1.1em;
+  padding: 6px 15px 15px;
+  outline: 0;
+  border: 4px solid #ffd54e;
+  border-radius: 15px;
+  background: 0 0;
+  text-shadow: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-out, text-shadow 0.3s ease-out;
+}
+.mybtn.et_pb_button:hover {
+  border: 4px solid #ffd54e !important;
+  box-shadow: -1px 1px 8px #45f500, 1px -1px 8px #45f500,
+    inset -3px -2px 8px #45f500, inset 2px 3px 8px #45f500;
+  text-shadow: -1px 1px 8px #45f500, 1px -1px 8px #45f500;
+}
